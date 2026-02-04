@@ -3,7 +3,7 @@ export const Section5 = () => {
   return (
     <section className="w-full bg-black text-white">
       <div className="mx-auto w-full max-w-[1140px] px-4 py-12 sm:py-16">
-        {/* logo */}
+       
         <img
           src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157061/logo_gbvkis.png"
           alt="Desafio 24 dias"
@@ -11,12 +11,11 @@ export const Section5 = () => {
           draggable={false}
         />
 
-        {/* título */}
+   
         <h2 className="mt-8 text-center font-['Montserrat'] text-[18px] sm:text-[22px] font-extrabold uppercase tracking-wide">
           VEJA O QUE ESTÃO DIZENDO DO NOSSO PRODUTO
         </h2>
 
-        {/* prints */}
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
           <img
             src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157062/comentario1_ccllaj.jpg"
@@ -38,7 +37,7 @@ export const Section5 = () => {
           />
         </div>
 
-        {/* E-BOOK COMPLETO */}
+       
         <div className="mt-10 flex justify-center">
           <img
             src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157061/ebookcompleto_yruo9z.png"

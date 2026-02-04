@@ -29,19 +29,19 @@ export const Section6 = () => {
 
   return (
     <section className="relative w-full overflow-hidden text-white">
-      {/* BG */}
+
       <img
         className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
         src={BG_SECTION6}
         alt=""
         draggable={false}
       />
-      {/* overlay pra destacar o card */}
+      
       <div className="absolute inset-0 -z-10 bg-black/35" />
 
       <div className="mx-auto w-full max-w-[1140px] px-4 py-12 sm:py-16">
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2">
-          {/* ESQUERDA: livros */}
+        
           <div className="flex justify-center md:justify-start">
             <img
               src={LIVROS}
@@ -51,14 +51,14 @@ export const Section6 = () => {
             />
           </div>
 
-          {/* DIREITA: card oferta */}
+         
           <div className="flex justify-center md:justify-end">
             <div
               className={[
                 "relative w-full max-w-[420px] rounded-[26px] p-6 sm:p-7",
                 "bg-black/70 border border-[#FF5A00]/45",
                 "shadow-[0_0_0_1px_rgba(255,90,0,0.18),0_0_40px_rgba(255,90,0,0.30),0_25px_70px_rgba(0,0,0,0.75)]",
-                // glow por trás
+             
                 "before:content-[''] before:absolute before:inset-[-10px] before:-z-10",
                 "before:rounded-[34px] before:bg-[#FF5A00]/10 before:blur-[18px]",
               ].join(" ")}
@@ -73,7 +73,7 @@ export const Section6 = () => {
                 </span>
               </div>
 
-              {/* timer */}
+           
               <div className="mt-5 grid grid-cols-2 gap-4">
                 <div className="rounded-[16px] border border-[#FF5A00]/45 bg-black/40 p-4 text-center">
                   <div className="text-[52px] leading-none font-black">
@@ -94,7 +94,7 @@ export const Section6 = () => {
                 </div>
               </div>
 
-              {/* preços */}
+          
               <div className="mt-4 text-center text-[12px] font-bold text-white/90">
                 DE <span className="line-through">R$147,99</span> POR APENAS
               </div>
@@ -107,7 +107,7 @@ export const Section6 = () => {
                 </div>
               </div>
 
-              {/* CTA */}
+             
               <a
                 href="#checkout"
                 className={[

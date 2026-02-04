@@ -13,12 +13,12 @@ const itens = [
 function Bullet({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3">
-      {/* ícone laranja */}
+    
       <span className="mt-0.5 grid h-5 w-5 place-items-center rounded-full border-2 border-[#FF5A00] text-[#FF5A00] text-[12px] font-black">
         ›
       </span>
 
-      {/* texto (sem faixa azul nessa section) */}
+   
       <span className="font-['Montserrat'] text-[15px] sm:text-[16px] font-semibold leading-tight text-white">
         {text}
       </span>
@@ -29,21 +29,21 @@ function Bullet({ text }: { text: string }) {
 export const Section3 = () => {
   return (
     <section className="relative w-full overflow-hidden text-white">
-      {/* BG de verdade */}
+  
       <img
         className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
         src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157063/bgsection3_rrpnwy.jpg"
         alt=""
         draggable={false}
       />
-      {/* overlay leve pra destacar conteúdo */}
+      
       <div className="absolute inset-0 -z-10 bg-black/30" />
 
       <div className="mx-auto w-full max-w-285 px-4 py-10 sm:py-14">
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2">
-          {/* ESQUERDA: texto + lista + parágrafo + e-book */}
+         
           <div>
-            {/* TÍTULO com “faixa cinza” */}
+           
             <h2 className="text-center font-['Montserrat'] e text-[18px] sm:text-[22px] font-extrabold uppercase leading-[1.1]">
               <span className="inline-block  px-3 py-2  text-white">
                 QUEM PRECISA DESTE GUIA
@@ -60,7 +60,7 @@ export const Section3 = () => {
               ))}
             </ul>
 
-            {/* parágrafo (com destaque laranja em partes) */}
+           
             <p className="mt-6 font-['Montserrat'] text-[16px] sm:text-[18px] font-bold leading-tight">
               Se você se identificou com pelo menos uma das situações acima,{" "}
               <span className="text-[#FF5A00]">
@@ -70,7 +70,6 @@ export const Section3 = () => {
               <span className="text-[#FF5A00]">E-mail agora mesmo.</span>
             </p>
 
-            {/* “E-BOOK COMPLETO” grande (simulação do print) */}
             <div className="mt-6">
               <p
                 className={[
@@ -99,7 +98,7 @@ export const Section3 = () => {
             </div>
           </div>
 
-          {/* DIREITA: imagem do cara */}
+         
           <div className="flex justify-center md:justify-end">
             <img
               className="w-[92%] max-w-130 select-none"

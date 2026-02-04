@@ -51,7 +51,7 @@ export const Faq = () => {
   return (
     <section className="w-full bg-black text-white">
       <div className="mx-auto w-full max-w-[980px] px-4 py-14 sm:py-20">
-        {/* Título grande laranja */}
+        
         <h2 className="text-center font-['Montserrat'] text-[32px] sm:text-[40px] font-black uppercase text-[#FF5A00]">
           DÚVIDAS FREQUENTES
         </h2>
@@ -62,7 +62,7 @@ export const Faq = () => {
 
             return (
               <div key={f.q} className="w-full">
-                {/* Barra marrom */}
+             
                 <button
                   type="button"
                   onClick={() => setOpenIndex(open ? -1 : i)}
@@ -79,14 +79,14 @@ export const Faq = () => {
                   </span>
                 </button>
 
-                {/* Resposta */}
+           
                 {open && (
                   <div className="px-4 sm:px-6 pt-4 pb-6">
                     <p className="text-[12px] sm:text-[13px] leading-relaxed text-white/90">
                       {f.a}
                     </p>
 
-                    {/* linha laranja de separação (igual print) */}
+                  
                     <div className="mt-6 h-px w-full bg-[#FF5A00]" />
                   </div>
                 )}
