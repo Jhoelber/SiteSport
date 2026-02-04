@@ -1,5 +1,3 @@
-// src/components/Section3.tsx
-import { Button } from "../Button";
 
 const itens = [
   "Pessoas que estão com autoestima baixa;",
