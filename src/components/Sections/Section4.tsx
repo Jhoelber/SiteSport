@@ -41,7 +41,7 @@ export const Section4 = () => {
        
 
 
-        <h2 className="text-center font-['Montserrat'] text-[18px] sm:text-[22px] font-extrabold uppercase tracking-wide">
+        <h2 className="text-center  text-[18px] sm:text-[22px] font-extrabold uppercase tracking-wide">
           APROVEITE! E RECEBA DE BRINDE ESSES{" "}
           <span className="text-[#FF5A00]">BÔNUS INCRÍVEIS</span>
         </h2>
@@ -84,7 +84,7 @@ export const Section4 = () => {
               {/* pílula BÔNUS */}
               <div className="mt-6 flex justify-center px-6">
                 <div className="w-full max-w-65 rounded-full border border-white/25 bg-black/15 py-2 text-center">
-                  <span className="font-['Montserrat'] text-[34px] font-black tracking-wider">
+                  <span className=" text-[34px] font-black tracking-wider">
                     {b.label}
                   </span>
                 </div>
@@ -92,7 +92,7 @@ export const Section4 = () => {
 
               {/* conteúdo */}
               <div className="px-6 pb-8 pt-5 text-center">
-                <h3 className="font-['Montserrat'] text-[26px] font-extrabold leading-tight text-[#FFB200]">
+                <h3 className=" text-[26px] font-extrabold leading-tight text-[#FFB200]">
                   {b.title}
                 </h3>
 

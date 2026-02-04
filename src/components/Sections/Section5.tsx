@@ -2,17 +2,17 @@
 export const Section5 = () => {
   return (
     <section className="w-full bg-black text-white">
-      <div className="mx-auto w-full max-w-[1140px] px-4 py-12 sm:py-16">
+      <div className="mx-auto w-full max-w-[1140px] px-4 ">
        
         <img
           src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157061/logo_gbvkis.png"
           alt="Desafio 24 dias"
-          className="mx-auto h-[52px] sm:h-[64px] w-auto select-none"
+          className="mx-auto h-13 sm:h-26 w-auto select-none"
           draggable={false}
         />
 
    
-        <h2 className="mt-8 text-center font-['Montserrat'] text-[18px] sm:text-[22px] font-extrabold uppercase tracking-wide">
+        <h2 className="mt-8 text-center  text-[18px] sm:text-[22px] font-extrabold uppercase tracking-wide">
           VEJA O QUE ESTÃO DIZENDO DO NOSSO PRODUTO
         </h2>
 

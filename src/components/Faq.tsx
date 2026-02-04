@@ -50,7 +50,7 @@ export const Faq = () => {
 
   return (
     <section className="w-full bg-black text-white">
-      <div className="mx-auto w-full max-w-[980px] px-4 py-14 sm:py-20">
+      <div className="mx-auto w-full max-w-[980px] px-4 py-10 ">
         
         <h2 className="text-center font-['Montserrat'] text-[32px] sm:text-[40px] font-black uppercase text-[#FF5A00]">
           DÚVIDAS FREQUENTES

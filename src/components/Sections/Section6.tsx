@@ -63,7 +63,7 @@ export const Section6 = () => {
                 "before:rounded-[34px] before:bg-[#FF5A00]/10 before:blur-[18px]",
               ].join(" ")}
             >
-              <h3 className="text-center font-['Montserrat'] text-[20px] sm:text-[22px] font-black uppercase tracking-wide">
+              <h3 className="text-center text-[20px] sm:text-[22px] font-black uppercase tracking-wide">
                 OFERTA ESPECIAL
               </h3>
 

@@ -19,7 +19,7 @@ function Bullet({ text }: { text: string }) {
       </span>
 
    
-      <span className="font-['Montserrat'] text-[15px] sm:text-[16px] font-semibold leading-tight text-white">
+      <span className=" text-[15px] sm:text-[16px] font-semibold leading-tight text-white">
         {text}
       </span>
     </li>
@@ -44,7 +44,7 @@ export const Section3 = () => {
          
           <div>
            
-            <h2 className="text-center font-['Montserrat'] e text-[18px] sm:text-[22px] font-extrabold uppercase leading-[1.1]">
+            <h2 className="text-center  e text-[18px] sm:text-[22px] font-extrabold uppercase leading-[1.1]">
               <span className="inline-block  px-3 py-2  text-white">
                 QUEM PRECISA DESTE GUIA
               </span>
@@ -61,7 +61,7 @@ export const Section3 = () => {
             </ul>
 
            
-            <p className="mt-6 font-['Montserrat'] text-[16px] sm:text-[18px] font-bold leading-tight">
+            <p className="mt-6  text-[16px] sm:text-[18px] font-bold leading-tight">
               Se você se identificou com pelo menos uma das situações acima,{" "}
               <span className="text-[#FF5A00]">
                 clique no botão abaixo e receba o e-book
@@ -71,31 +71,10 @@ export const Section3 = () => {
             </p>
 
             <div className="mt-6">
-              <p
-                className={[
-                  "font-['Roboto'] font-black uppercase",
-                  "text-[54px] sm:text-[72px] leading-[0.9]",
-                  "text-[#FF5A00]",
-                  "[text-shadow:0_0_0.5px_#000,0_8px_20px_rgba(0,0,0,0.9)]",
-                ].join(" ")}
-              >
-                E-BOOK
-              </p>
-              <p
-                className={[
-                  "font-['Roboto'] font-black uppercase",
-                  "text-[54px] sm:text-[72px] leading-[0.9]",
-                  "text-[#FF5A00]",
-                  "[text-shadow:0_0_0.5px_#000,0_8px_20px_rgba(0,0,0,0.9)]",
-                ].join(" ")}
-              >
-                COMPLETO
-              </p>
+             <img src="https://res.cloudinary.com/drukanr6m/image/upload/v1770157061/ebookcompleto_yruo9z.png" alt=""  />
             </div>
 
-            <div className="mt-6 max-w-140">
-              <Button />
-            </div>
+           
           </div>
 
          

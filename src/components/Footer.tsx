@@ -1,7 +1,7 @@
 
 export const Footer = () => {
     return (
-        <footer className=" py-6 text-sm text-zinc-300 bg-black">
+        <footer className=" pb-6 text-sm text-zinc-300 bg-black">
             <div className="mx-auto max-w-5xl text-center ">
                 <div className="mx-auto w-full max-w-285 px-4 py-10 sm:py-14">
                     <img
