@@ -1,7 +1,7 @@
 // src/components/Section5.tsx
 export const Section5 = () => {
   return (
-    <section className="w-full bg-black text-white">
+    <section className="w-full bg-black text-white" >
       <div className="mx-auto w-full max-w-[1140px] px-4 ">
        
         <img

@@ -28,7 +28,7 @@ export const Section6 = () => {
   const { minutes, seconds } = useCountdown(19);
 
   return (
-    <section className="relative w-full overflow-hidden text-white">
+    <section className="relative w-full overflow-hidden text-white " id="checkout">
 
       <img
         className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
@@ -52,7 +52,7 @@ export const Section6 = () => {
           </div>
 
          
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-center md:justify-end" >
             <div
               className={[
                 "relative w-full max-w-[420px] rounded-[26px] p-6 sm:p-7",
@@ -88,7 +88,7 @@ export const Section6 = () => {
                   <div className="text-[52px] leading-none font-black">
                     {String(seconds).padStart(2, "0")}
                   </div>
-                  <div className="mt-1 text-[14px] uppercase tracking-wide text-white/90">
+                  <div  className="mt-1 text-[14px] uppercase tracking-wide text-white/90">
                     Segundos
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export const Section6 = () => {
                 DE <span className="line-through">R$147,99</span> POR APENAS
               </div>
 
-              <div className="mt-3 flex justify-center">
+              <div className="mt-3 flex justify-center" id="#checkout">
                 <div className="rounded-full border-2 border-[#FF5A00] px-10 py-3">
                   <span className="text-[42px] font-black tracking-tight">
                     R$14,90
@@ -110,6 +110,7 @@ export const Section6 = () => {
              
               <a
                 href="https://pay.hotmart.com/I104313026W?checkoutMode=10"
+               
                 className={[
                   "mt-5 inline-flex w-full items-center justify-center",
                   "rounded-full bg-[#FF5A00] px-6 py-3",
