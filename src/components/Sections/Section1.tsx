@@ -1,11 +1,18 @@
 // src/components/Section1.tsx
 import { Button } from "../Button";
+import { VideoPlayer } from "../VideoPlayer";
 
 const BG =
   "https://res.cloudinary.com/drukanr6m/image/upload/v1770157062/bgsection1_tsryqd.jpg";
 
 const IFRAME_SRC =
   "https://res.cloudinary.com/drukanr6m/video/upload/v1770674184/WhatsApp_Video_2026-02-05_at_21.41.24_fa9ufd.mp4";
+
+
+
+
+
+  
 
 export const Section1 = () => {
   return (
@@ -66,16 +73,8 @@ export const Section1 = () => {
             <div className="mt-6 w-full max-w-[620px]">
               <div className="rounded-[6px] border border-[#FF5A00]/70 bg-black/30 p-[10px] shadow-[0_18px_40px_rgba(0,0,0,0.6)]">
                 <div className="overflow-hidden rounded-[4px] bg-black">
-                  <div className="relative w-full pt-[56.25%]">
-                    <video
-                      src={IFRAME_SRC}
-                      className="absolute inset-0 h-full w-full object-cover"
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      preload="auto"
-                    />
+                  <div className="">
+                  <VideoPlayer />
                   </div>
                 </div>
               </div>
