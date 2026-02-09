@@ -7,17 +7,7 @@ export function VideoPlayer() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [muted, setMuted] = useState(true);
 
-  function toggleMute() {
-    const v = videoRef.current;
-    if (!v) return;
 
-    const next = !muted;
-    v.muted = next;          // true = mudo, false = com som
-    setMuted(next);
-
-    // alguns browsers exigem play() após desmutar
-    v.play().catch(() => { });
-  }
 
 
 

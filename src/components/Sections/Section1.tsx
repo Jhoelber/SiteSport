@@ -5,14 +5,7 @@ import { VideoPlayer } from "../VideoPlayer";
 const BG =
   "https://res.cloudinary.com/drukanr6m/image/upload/v1770157062/bgsection1_tsryqd.jpg";
 
-const IFRAME_SRC =
-  "https://res.cloudinary.com/drukanr6m/video/upload/v1770674184/WhatsApp_Video_2026-02-05_at_21.41.24_fa9ufd.mp4";
 
-
-
-
-
-  
 
 export const Section1 = () => {
   return (
