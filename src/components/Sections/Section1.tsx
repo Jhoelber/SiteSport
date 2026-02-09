@@ -5,7 +5,7 @@ const BG =
   "https://res.cloudinary.com/drukanr6m/image/upload/v1770157062/bgsection1_tsryqd.jpg";
 
 const IFRAME_SRC =
-  "https://player-vz-2cc8bbeb-04f.tv.pandavideo.com.br/embed/?v=8771e2a0-5835-43e1-9746-a195e8dc50f6";
+  "https://res.cloudinary.com/drukanr6m/video/upload/v1770674184/WhatsApp_Video_2026-02-05_at_21.41.24_fa9ufd.mp4";
 
 export const Section1 = () => {
   return (
@@ -67,13 +67,14 @@ export const Section1 = () => {
               <div className="rounded-[6px] border border-[#FF5A00]/70 bg-black/30 p-[10px] shadow-[0_18px_40px_rgba(0,0,0,0.6)]">
                 <div className="overflow-hidden rounded-[4px] bg-black">
                   <div className="relative w-full pt-[56.25%]">
-                    <iframe
+                    <video
                       src={IFRAME_SRC}
-                      className="absolute inset-0 h-full w-full"
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      allowFullScreen
-                      loading="lazy"
-                      title="Vídeo"
+                      className="absolute inset-0 h-full w-full object-cover"
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      preload="auto"
                     />
                   </div>
                 </div>

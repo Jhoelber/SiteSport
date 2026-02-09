@@ -102,14 +102,14 @@ export const Section6 = () => {
               <div className="mt-3 flex justify-center">
                 <div className="rounded-full border-2 border-[#FF5A00] px-10 py-3">
                   <span className="text-[42px] font-black tracking-tight">
-                    R$97,00
+                    R$14,90
                   </span>
                 </div>
               </div>
 
              
               <a
-                href="#checkout"
+                href="https://pay.hotmart.com/I104313026W?checkoutMode=10"
                 className={[
                   "mt-5 inline-flex w-full items-center justify-center",
                   "rounded-full bg-[#FF5A00] px-6 py-3",
