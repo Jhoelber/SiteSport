@@ -5,7 +5,7 @@ const VIDEO_SRC =
 
 export function VideoPlayer() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const [muted, setMuted] = useState(true);
+  const [muted] = useState(true);
 
 
 
