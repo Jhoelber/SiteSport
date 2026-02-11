@@ -51,8 +51,8 @@ export const Faq = () => {
   return (
     <section className="w-full bg-black text-white">
       <div className="mx-auto w-full max-w-[980px] px-4 py-10 ">
-        
-        <h2 className="text-center font-['Montserrat'] text-[32px] sm:text-[40px] font-black uppercase text-[#FF5A00]">
+
+        <h2 className="text-center  text-[32px] sm:text-[40px] font-black uppercase text-[#FF5A00]">
           DÚVIDAS FREQUENTES
         </h2>
 
@@ -62,7 +62,7 @@ export const Faq = () => {
 
             return (
               <div key={f.q} className="w-full">
-             
+
                 <button
                   type="button"
                   onClick={() => setOpenIndex(open ? -1 : i)}
@@ -79,14 +79,14 @@ export const Faq = () => {
                   </span>
                 </button>
 
-           
+
                 {open && (
                   <div className="px-4 sm:px-6 pt-4 pb-6">
                     <p className="text-[12px] sm:text-[13px] leading-relaxed text-white/90">
                       {f.a}
                     </p>
 
-                  
+
                     <div className="mt-6 h-px w-full bg-[#FF5A00]" />
                   </div>
                 )}
@@ -94,6 +94,18 @@ export const Faq = () => {
             );
           })}
         </div>
+        
+        <h1 className="text-center text-[32px] sm:text-[40px] font-black uppercase text-[#FF5A00] mt-7 ">Ficou com mais alguma duvida?</h1>
+
+        <a href="https://w.app/desafio24dias">
+
+          <img
+            src="https://res.cloudinary.com/drukanr6m/image/upload/v1770768477/contato-whatsapp_uirylb.png"
+            className="block mx-auto w-52 "
+            alt="whatsapp"
+          />
+
+        </a>
       </div>
     </section>
   );
